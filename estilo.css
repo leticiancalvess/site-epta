@@ -1,0 +1,274 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+
+/* Layout
+-----------------------------*/
+#home {
+	height: 100%;
+	
+}
+body, html {
+	margin: 0;
+	font: 16px "Helvetica", sans-serif;
+	color: #777;
+	height: 80%;
+
+}
+body {
+	background-attachment: fixed;
+
+}
+
+/* Barra de navegação
+-----------------------------*/
+
+nav {
+	font-family: Roboto;
+	font-size: 18px;
+}
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0);
+	position: absolute;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+.divisor {
+	width: 1px; 
+	background: white;
+	margin: 12px 15px;
+}
+
+
+
+
+footer p a {
+	margin: 5px 15px;
+}
+
+.transp img {
+	opacity: 1;
+}
+.transp img:hover {
+	opacity: 0.7;
+}
+a:link {
+	text-decoration: none;
+}
+
+.autor {
+	display: block;
+	font-size: 10px;
+	color: #808080;
+	padding-bottom: 10px;
+}
+.autor img {
+	border-radius: 50%;
+}
+.zoom {
+	overflow: hidden;
+	margin-left: 10px;
+}
+.zoom img {
+	transition: all 0.3s;
+
+
+}
+.zoom:hover img {
+	transform: scale(1.1);
+}
+
+
+ul.teste {
+    padding: 0;
+    margin: 0;
+
+}
+
+ul.teste li {
+	display: inline;
+}
+
+ul.teste li a {
+	background-color: white;
+	margin-right: 10px;
+	font-size: 17px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+ ul.teste a:hover {
+ 	background-color: black;
+	color: white;
+	
+}
+
+#pagina {
+	display: flex;
+	justify-content: center;
+
+}
+
+		.caixa1, .caixa2, .caixa3  {
+				position: relative;
+				height: 100%;
+				opacity: 0.7;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+
+		}
+
+		.caixa1 {
+			background-image: url(imagens/wwrite.jpg);
+
+		}
+		.caixa2 {
+			background-image: url(imagens/projeto3.jpg);
+
+		}
+		.caixa3 {
+			background-image: url(imagens/teste3.jpg);
+		}
+
+		.conteudo-titulo {
+			position: absolute;
+		left: 0;
+			top: 45%;
+			width: 100%;
+		
+		text-align: center;
+		margin: auto;
+		color: #fff;
+		}
+
+		.conteudo-titulo span.titulo {
+		letter-spacing: 3px;
+		font-size: 55px;
+		text-align: center;
+		position: relative;
+		margin: auto;
+		color: #fff;
+		}
+@media (min-width: 280px ) and (max-width: 760px) {
+		.resumo{
+			padding-left: 10px;
+		}
+		.autor{
+			padding-left: 10px;
+		}
+	footer p{
+		width: 130px;
+		
+	}
+	footer a{
+		float:left;
+	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+		
+	}
+		
+		
+		}
+@media (min-width: 761px ) and (max-width: 1299px){
+	.resumo{
+		padding-left: 7px;
+	}
+	.autor{
+		padding-left: 7px;
+	}
+	#nav-principal, #rodape2{
+		font-size: 15px;
+	}
+}
+@media (min-width: 1300px ) and (max-width: 1500px) {
+	.maxWidth {
+	min-width: 1250px;
+}
+.autor{
+padding-left: 10px;
+
+}
+.resumo{
+	padding-left: 10px;
+}
+}
+
+@media (min-width: 1600px) {
+.maxWidth {
+	min-width: 1600px;
+}
+#nav-principal, #rodape2{
+	font-size: 25px;
+}
+h4{
+	font-size: 30px;
+}
+.resumo{
+	font-size: 22px;
+	padding-left: 10px;
+}
+.autor{
+	padding-left: 10px;
+	font-size: 15px;
+}
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+footer p a {
+	margin: 5px 15px;
+}
+
+.transp img {
+	opacity: 1; 	
+}
+.transp img:hover {
+	opacity: 0.7;
+}
+
+a:link {
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+
+h4 {
+	padding-top: 7px;
+	text-align: center;
+ 	margin-bottom: 30px;
+}
+.zoom {
+	overflow: hidden;
+	margin-left: 10px;
+  }
+  .zoom img {
+	transition: all 0.3s;
+  
+  
+  }
+  .zoom:hover img {
+	transform: scale(1.1);
+  }
+ 
+
+ .resumo {
+ 	margin-top: 30px;
+ 	font-family: 'Roboto';
+
+ }

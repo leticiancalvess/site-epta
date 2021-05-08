@@ -1,0 +1,300 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.caixa {
+	padding: 40px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#texto {
+	text-align: center;
+	padding-bottom: 10px;
+}
+#texto img{
+	text-align: center;
+}
+#titulo {
+	font-family: 'Roboto';
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	font-size: 30px;
+	
+	
+}
+.titulo2 {
+	font-family: 'Roboto';
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	padding-top: 10px;
+}
+#descricao {
+	font-family: 'Roboto';
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+.produtos {
+	font-size: 2em;
+	color: #79baa7;
+	font-weight: 500px;
+	line-height: 1.2em;
+}
+
+
+.valor {
+	font-family: 'Roboto';
+	font-size: 30px;
+	width: 70%;
+	padding-bottom: 10px;
+}
+.comprar {
+	font-size: 25px;
+	background: black;
+	float: left;
+	height: 60px;
+	color: white;
+	width: 180px;
+	text-align: center;
+	line-height: 60px;
+}
+.comprar a{
+	color: inherit;
+}
+
+.box {
+	font-family: 'Roboto';
+	width: 320px;
+	float: left;
+	display: flex;
+	padding-bottom: 20px;
+	padding-top: 10px;
+
+}
+.box label {
+	margin-right: 10px;
+}
+.box .button {
+	width: 37px;
+	height: 37px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.box .button:active {
+	background: #ccc;
+}
+.box input {
+	width: 60px;
+	padding: 5px 10px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	margin: 0 7px;
+}
+
+@media (max-width: 299px){
+	.img-carousel img{
+		width: 310px;
+		
+	}
+	.compra{
+		width: 250px;
+		
+	}
+	footer p{
+		width: 100%;
+		
+	}
+	
+	footer a{
+		float: left;
+	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+	}
+}
+@media (min-width: 300px ) and (max-width: 369px) {
+	.img-carousel img{
+		width: 350px;
+		
+	}
+	.compra{
+		width: 340px;
+	}
+	footer p{
+		width: 100%;
+		
+	}
+	footer a{
+		float: left;
+	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+	}
+}
+
+@media (min-width: 370px) and (max-width: 539px) {
+	.img-carousel img{
+		width: 400px;
+		
+	}
+	footer p{
+		width: 100%;
+		
+	}
+	footer a{
+		float: left;
+	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+	}
+
+}
+
+
+@media (min-width: 540px) and (max-width: 767.98px) { 
+	.img-carousel img{
+		width: 495px;
+		
+	}
+	#descricao{
+		width: 450px;
+	}
+	footer p{
+		width: 100%;
+		
+	}
+	footer a{
+		float: left;
+	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+	}
+		
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.maxWidth {
+		min-width: 700px;
+	}
+	.img-carousel img{
+		width: 310px;
+		
+	}	
+	
+} 
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.maxWidth {
+		min-width: 900px;
+	}
+	.img-carousel img{
+		width: 400px;
+		
+	}
+	#descricao{
+		width: 450px;
+	}
+
+} 
+
+
+
+
+ @media (min-width: 1200px ) and (max-width: 1599px) {
+	.maxWidth {
+	min-width: 1250px;
+}
+.img-carousel img{
+	width: 550px;
+}
+.compra{
+	width: 500px;
+}
+
+}
+
+@media (min-width: 1600px) {
+.maxWidth {
+	min-width: 1500px;
+}
+.img-carousel img{
+	width: 800px;
+}
+#titulo{
+	font-size: 50px;
+}
+.titulo2{
+	font-size: 30px;
+}
+#descricao{
+	font-size: 25px;
+}
+.valor{
+	font-size: 35px;
+}
+.box{
+	font-size: 30px;
+}
+.comprar{
+	margin-left: 20px;
+}
+.compra{
+	width: 700px;
+	padding: 50px;
+
+}
+#relacionados{
+	font-size: 40px !important;
+}
+#nav-principal, #rodape2{
+	font-size: 25px;
+}
+}
+footer p a{
+	margin: 15px 5px;
+}
+
+#detalhe{
+	font-size: 30px;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+#relacionados {
+	line-height: 1.2em;
+	font-size: 1.5em;
+	color: #008080;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin: auto;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 1px;
+}
+
+.zoom {
+	overflow: hidden;
+	margin-left: 10px;
+}
+.zoom img {
+	transition: all 0.3s;
+
+
+}
+.zoom:hover img {
+	transform: scale(1.1);
+}
+.transp img {
+	opacity: 1;
+}
+.transp img:hover {
+	opacity: 0.7;
+
+}

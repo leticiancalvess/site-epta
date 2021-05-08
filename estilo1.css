@@ -1,0 +1,262 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+#wrapper{
+	position: relative;
+	height: 100vh;
+}
+#slider-area{
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#slider-area .owl-item div{
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+-webkit-background-size:cover;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+.slider-text{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 10%;
+	z-index: 10;
+	top: 40%;
+	text-align: center;
+	width: 400px;
+}
+.slider-text h2{
+	
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #fff;
+}
+.slider-text p{
+	
+	font-size: 15px;
+	color: #fff;
+}
+.slider-text a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background:#48D1CC;
+	padding: 15px 25px;
+	display: inline-block;
+	border-radius: 25px;
+	color: #fff;
+	
+}
+nav {
+	font-family: Roboto;
+	font-size: 18px;
+}
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0);
+	position: absolute;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+.divisor {
+	width: 1px; 
+	background: white;
+	margin: 12px 15px;
+}
+
+
+
+
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+footer p a {
+	margin: 5px 15px;
+	font-family: 'Helvetica';
+}
+
+.transp img {
+	opacity: 1; 	
+}
+.transp img:hover {
+	opacity: 0.7;
+}
+
+a:link {
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+.autor {
+	display: block;
+	font-size: 10px;
+	color: #808080;
+	padding-bottom: 10px;
+}
+.autor img {
+	border-radius: 50%;
+}
+.zoom {
+	overflow: hidden;
+	margin-left: 10px;
+}
+.zoom img {
+	transition: all 0.3s;
+
+
+}
+.zoom:hover img {
+	transform: scale(1.1);
+}
+
+@media (max-width: 290px){
+	.slider-text h2{
+		font-size: 30px;
+		width: 200px;
+		
+		
+	}
+	.slider-text p {
+		width: 200px;
+		padding-left: 10px;
+	}
+	.slider-text a{
+		width: 200px;
+		margin-left: -200px;
+		
+	}
+}
+
+@media (min-width: 291px ) and (max-width: 766px) {
+	
+	.texto h2{
+		font-size: 22px;
+		padding-left: 15px;
+	
+	}
+	.texto a{
+		margin-left: 10px;
+		width: 100px;
+	}
+	.texto p {
+		font-size: 17px;
+		padding-top: 10px;
+		padding-left: 15px;
+	}
+	.autor{
+		padding-left: 10px;
+		font-size: 15px;
+		
+	}
+	.autor img{
+		width: 30px;
+		height: 30px;
+
+		
+	}
+	.slider-text{
+		width: 250px;
+		left:20%;
+	}
+	footer p{
+		width: 130px;
+		
+	}
+	footer a{
+		float:left;
+	}
+	footer .rodape{
+		padding-top:10px;
+		justify-content: flex-start  !important;
+		
+	}
+
+}
+@media (min-width: 767px ) and (max-width: 1299px) {
+	#nav-principal, #rodape2{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1300px ) and (max-width: 1500px) {
+	.maxWidth {
+	min-width: 1250px;
+}
+.texto h2{
+	font-size: 30px;
+
+}
+.texto a{
+	
+	width: 130px;
+}
+.texto p {
+	font-size: 20px;
+	padding-top: 20px;
+}
+.autor{
+	font-size: 12px;
+}
+.autor img{
+	width: 35px;
+	height: 35px;
+	
+}
+}
+
+@media (min-width: 1600px) {
+.maxWidth {
+	min-width: 1600px;
+}
+.slider-text h2{
+	font-size: 100px;
+	
+}
+.slider-text p {
+	width: 500px;
+	font-size: 20px;
+}
+.slider-text a{
+	width: 200px;
+	font-size: 20px;
+}
+#nav-principal, #rodape2{
+	font-size: 20px;
+}
+.zoom img{
+	width: 1500px;
+}
+.texto h2{
+	font-size: 40px;
+
+}
+.texto a{
+	
+	width: 150px;
+}
+.texto p {
+	font-size: 25px;
+	padding-top: 20px;
+}
+.autor{
+	font-size: 20px;
+}
+.autor img{
+	width: 50px;
+	height: 50px;
+	
+}
+}
